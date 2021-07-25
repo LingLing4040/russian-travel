@@ -1,0 +1,11 @@
+.header__lang-link {
+    text-decoration: none;
+    color: white;
+    line-height: 1.16;
+    font-size: 24px;
+  }
+  
+  .header__lang-link:hover {
+    text-decoration: underline;
+  }
+  
