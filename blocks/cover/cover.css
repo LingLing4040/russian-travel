@@ -1,0 +1,37 @@
+.cover {
+    margin: 92px auto 0;
+    min-height: 740px;
+    max-width: 92.5%;
+    position: relative;
+    z-index: 0;
+}
+
+.cover:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  min-height: 740px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.cover:hover:before {
+  opacity: .2;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+ 
+@media screen and (min-width: 1600px) {
+  .cover {
+      max-width: 80%;
+  }
+}
