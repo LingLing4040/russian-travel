@@ -1,4 +1,10 @@
 .header__lang-list {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-list {
+        align-items: center;
+    }
 }

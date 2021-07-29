@@ -1,24 +1,24 @@
 .place {
-    list-style: none;
     margin: 0 auto 80px;
     padding: 0;
     display: grid;
     gap: 48px 40px;
-    grid-template-columns: 1fr 1.04fr;    
+    grid-template-columns: 1fr 1.05fr;    
 }
 
 .place:last-of-type {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .places {
+@media screen and (max-width: 1279px) {
+    .place {
         gap: 48px 32px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .place {
+        grid-template-columns: 1fr 1.035fr; 
         margin: 0 auto 73px;
         gap: 48px 28px;
     }
