@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1023px) {
     .place {
-        grid-template-columns: 1fr 1.035fr; 
+        grid-template-columns: 1fr 1.035fr;
         margin: 0 auto 73px;
         gap: 48px 28px;
     }
