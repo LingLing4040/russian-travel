@@ -1,28 +1,28 @@
 .footer {
-  margin: 92px auto 24px;
-  max-width: 92.5%;
-  display: flex;
-  justify-content: start;
-  grid-gap: 18px;
+    margin: 92px auto 24px;
+    max-width: 92.5%;
+    display: flex;
+    justify-content: start;
+    grid-gap: 18px;
 }
 
 @media screen and (max-width: 1279px) {
-  .footer {
-    max-width: 90.6%;
-  }
+    .footer {
+        max-width: 90.6%;
+    }
 }
 
-@media screen  and (max-width: 1023px) {
-  .footer {
-    max-width: 93.75%;
-    margin: 88px auto 24px;
-  }
+@media screen and (max-width: 1023px) {
+    .footer {
+        max-width: 93.75%;
+        margin: 88px auto 24px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-  .footer {
-    margin: 64px auto 24px;
-    flex-direction: column;
-    gap: 32px;
-  }
+    .footer {
+        margin: 64px auto 24px;
+        flex-direction: column;
+        gap: 32px;
+    }
 }
