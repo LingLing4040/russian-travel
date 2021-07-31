@@ -4,18 +4,17 @@
     line-height: 1.4;
     letter-spacing: 1.5px;
     align-self: flex-start;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1023px) {
     .lead__caption {
         margin: 8px 0 0 24px;
-        align-self: flex-start;
     }
 }
 
 @media screen and (max-width: 424px) {
     .lead__caption {
         margin: 8px 0 0 16px;
-        align-self: flex-start;
     }
 }

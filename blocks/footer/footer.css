@@ -3,7 +3,6 @@
     max-width: 92.5%;
     display: flex;
     justify-content: start;
-    grid-gap: 18px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -24,5 +23,6 @@
         margin: 64px auto 24px;
         flex-direction: column;
         gap: 32px;
+        max-width: 90%;
     }
 }
